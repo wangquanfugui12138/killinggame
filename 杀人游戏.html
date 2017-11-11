@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The game of killing</title>
+    <link rel="Stylesheet" href="kill%20css.css"  charset="GBK"/>
+</head>
+<body>
+<header class="head">
+</header>
+<div class="topic">
+    玩家配比
+</div>
+<div class="main">
+    <div class="character">
+        <img src="Image/killer.bmp" class="image" alt=""/>
+        <a id="killer" style="font-weight: bold">杀手&nbsp;人</a>
+    </div>
+    <div class="character">
+        <img src="Image/peo.bmp" class="image" alt=""/>
+        <a  id="people" style="font-weight: bold">平民&nbsp;人</a>
+    </div>
+</div>
+<div class="handle">
+</div>
+<div class="setNum">
+    <label for="personNum">请输入玩家数量</label>
+    <input class="tb" type="text" id="personNum" value="" maxlength="2" required=""
+           onKeyUp="value=value.replace(/\D/g,'')"/>
+    <a style="color: orange;font-family: Arial"><sub>玩家数量为4-18</sub></a>
+    <input type="button" class="button" id="start" value="去发牌" onclick="start()"/>
+
+</div>
+<script src="kill%20js.js" charset="GBK"></script>
+</body>
+</html>
