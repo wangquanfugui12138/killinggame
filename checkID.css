@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    border: 0;
+    background-color: #46c4e4;
+}
+div{
+    overflow: hidden;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    border-bottom:2px solid aqua;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.5rem;
+    font-family: 'ºÚÌå', serif;
+    color: white;
+}
+.main{
+    border: 4px solid white;
+    position: absolute;
+    top:14%;
+    left: 35%;
+    right: 35%;
+    height: 70%;
+    background-color: #fdf0cc;
+}
+.num{
+    position:absolute;
+    border-radius: 50%;
+    top:9%;
+    left: 48%;
+    width: 5%;
+    height: 10%;
+    background-color: white;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    text-align: center;
+    color: red;
+    z-index: 1;
+}
+.button{
+    position: fixed;
+    top: 89%;
+    width: 34%;
+    height: 7%;
+    text-align: center;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    font-family: 'ºÚÌå',serif;
+    background-color: orange;
+    border: 0;
+    color:white;
+    left: 33%;
+}
+.fpimg{
+    position: relative;
+    left: 33%;
+    top: 30%;
+
+}
+.sfimg{
+    position: relative;
+    left: 38%;
+    top: 8%;
+    display: none;
+}
+.sf{
+    text-align: center;
+    color: #46c4e4;
+    font-size: 4rem;
+    font-weight: bold;
+    position: fixed;
+    left: 48%;
+    top: 38%;
+    display: none;
+}
+.allID{
+    position: absolute;
+    top:10%;
+    left: 25%;
+    right: 25%;
+    height: 70%;
+    background-color: orange;
+}
+

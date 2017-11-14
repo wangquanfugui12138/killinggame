@@ -2,6 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>The game of killing</title>
     <link rel="Stylesheet" href="kill%20css.css"  charset="GBK"/>
 </head>
@@ -13,24 +14,23 @@
 </div>
 <div class="main">
     <div class="character">
-        <img src="Image/killer.bmp" class="image" alt=""/>
-        <a id="killer" style="font-weight: bold">杀手&nbsp;人</a>
+        <img src="Image/killer.bmp" class="image" alt="k"/>
+        <span id="killer" class="pNum">杀手&nbsp;人</span>
     </div>
     <div class="character">
-        <img src="Image/peo.bmp" class="image" alt=""/>
-        <a  id="people" style="font-weight: bold">平民&nbsp;人</a>
+        <img src="Image/people.bmp" class="image" alt="p"/>
+        <span  id="people" class="pNum">平民&nbsp;人</span>
     </div>
 </div>
 <div class="handle">
 </div>
 <div class="setNum">
-    <label for="personNum">请输入玩家数量</label>
+    <label for="personNum">请输入玩家数量&nbsp;</label>
     <input class="tb" type="text" id="personNum" value="" maxlength="2" required=""
            onKeyUp="value=value.replace(/\D/g,'')"/>
-    <a style="color: orange;font-family: Arial"><sub>玩家数量为4-18</sub></a>
-    <input type="button" class="button" id="start" value="去发牌" onclick="start()"/>
-
+    <span style="color: orange;font-family: Arial"><sub>&nbsp;&nbsp;玩家数量为4-18</sub></span>
 </div>
+<input type="button" class="button" id="start" value="去发牌" onclick="start()"/>
 <script src="kill%20js.js" charset="GBK"></script>
 </body>
 </html>
