@@ -241,9 +241,10 @@ function creatdiv(arr,num){
         numdiv.style.backgroundColor="#92b7a5";
         numdiv.style.float="left";
         numdiv.style.textAlign="center";
-        numdiv.style.fontSize="1.5rem";
+        numdiv.style.fontSize="1rem";
         numdiv.style.color="white";
-        numdiv.style.lineHeight="2.5rem";
+        numdiv.style.lineHeight="2rem";
+        numdiv.style.height="3rem";
         numdiv.style.width="100%";
         numdiv.innerText=i+"号";
         chdiv.appendChild(numdiv);
