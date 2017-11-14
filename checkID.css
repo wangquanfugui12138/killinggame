@@ -59,14 +59,14 @@ div{
 }
 .fpimg{
     position: relative;
-    left: 30%;
+    left: 26%;
     top: 30%;
 
 }
 .sfimg{
     position: relative;
-    left: 37%;
-    top: 8%;
+    left: 35%;
+    top: 7%;
     display: none;
 }
 .sf{
@@ -76,7 +76,7 @@ div{
     font-weight: bold;
     position: fixed;
     left: 48%;
-    top: 40%;
+    top: 42%;
     display: none;
 }
 
