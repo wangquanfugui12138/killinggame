@@ -243,7 +243,7 @@ function creatdiv(arr,num){
         numdiv.style.textAlign="center";
         numdiv.style.fontSize="1rem";
         numdiv.style.color="white";
-        numdiv.style.lineHeight="2rem";
+        numdiv.style.lineHeight="1.5rem";
         numdiv.style.height="3rem";
         numdiv.style.width="100%";
         numdiv.innerText=i+"号";
