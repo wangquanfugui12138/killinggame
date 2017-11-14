@@ -38,6 +38,6 @@ function start(){
 }
 
 function turn(){
-    location.href="查看身份.html?value="+document.getElementById('personNum').value;;
+    location.href="checkIdentify.html?value="+document.getElementById('personNum').value;;
 }
 
