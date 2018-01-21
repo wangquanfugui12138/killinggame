@@ -1,6 +1,4 @@
 
-#简单版杀人游戏
-
-初次接触移动端网页<br>
+#简单版杀人游戏(移动端)
 
 [杀人游戏](https://wangquanfugui12138.github.io/killinggame/kg.html)
